@@ -1,6 +1,6 @@
 module "s3-bucket" {
   source = "./modules/s3-bucket"
-  s3_bucket = var.domain_name
+  s3_bucket-bucket = var.domain_name
 }
 
 module "cloudfront_distribution" {
